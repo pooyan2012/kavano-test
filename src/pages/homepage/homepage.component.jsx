@@ -1,5 +1,8 @@
 import React from "react";
 
+import { ReactComponent as ListIco } from "../../assets/list-ico.svg";
+import { ReactComponent as FleshDown } from "../../assets/flesh-down.svg";
+
 import "./homepage.styles.scss";
 
 const Homepage = () => (
@@ -19,12 +22,7 @@ const Homepage = () => (
               Add a Task
             </a>
             <div className="kavano-task-txt-container">
-              <img
-                src="https://uploads-ssl.webflow.com/5fa6539de1f11567b7272ea6/6077225ff8ee2294413ceb93_Ellipse%203.svg"
-                loading="lazy"
-                alt=""
-                className="kavano-list-dot"
-              />
+              <ListIco />
               <div className="kavano-task-title-sub-container">
                 <div className="kavano-task-title">
                   Wireframe for contact page
@@ -33,24 +31,14 @@ const Homepage = () => (
               </div>
             </div>
             <div className="kavano-task-txt-container">
-              <img
-                src="https://uploads-ssl.webflow.com/5fa6539de1f11567b7272ea6/6077225ff8ee2294413ceb93_Ellipse%203.svg"
-                loading="lazy"
-                alt=""
-                className="kavano-list-dot"
-              />
+              <ListIco />
               <div className="kavano-task-title-sub-container">
                 <div className="kavano-task-title">Book return ticket</div>
                 <div className="kavano-task-sub">Tommorow</div>
               </div>
             </div>
             <div className="kavano-task-txt-container">
-              <img
-                src="https://uploads-ssl.webflow.com/5fa6539de1f11567b7272ea6/6077225ff8ee2294413ceb93_Ellipse%203.svg"
-                loading="lazy"
-                alt=""
-                className="kavano-list-dot"
-              />
+              <ListIco />
               <div className="kavano-task-title-sub-container">
                 <div className="kavano-task-title">Pay electricity bill</div>
                 <div className="kavano-task-sub">2 Days Ahead</div>
@@ -59,12 +47,7 @@ const Homepage = () => (
           </div>
           <div className="kavano-completed-task">
             <div className="kavano-complete-title">Completed</div>
-            <img
-              src="https://uploads-ssl.webflow.com/5fa6539de1f11567b7272ea6/6076bd4c3170b1157cf34f24_Group%206.svg"
-              loading="lazy"
-              alt=""
-              className="kavano-downflesh-ico"
-            />
+            <FleshDown />
           </div>
         </div>
       </div>
