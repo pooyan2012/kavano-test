@@ -1,7 +1,7 @@
 import "./App.css";
 
-function App() {
-  return <div className="App">start...</div>;
-}
+import Homepage from "./pages/homepage/homepage.component";
+
+const App = () => <Homepage />;
 
 export default App;
