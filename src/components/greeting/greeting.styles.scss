@@ -1,0 +1,28 @@
+.kavano-user {
+  border-top-left-radius: 20px;
+  background-color: #f6f7fb;
+
+  .kavano-user-logo {
+    width: 45px;
+    height: 45px;
+    margin-left: 25px;
+    border-radius: 8px;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-image: url("https://uploads-ssl.webflow.com/5fa6539de1f11567b7272ea6/607714abf8ee22f8af3c9b6d_7572822.jpg");
+    background-size: cover;
+  }
+
+  .kavano-user-message {
+    margin-left: 10px;
+  }
+  .kavano-morning-msg {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+  }
+  .kavano-username {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+  }
+  
+}
