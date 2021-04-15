@@ -68,6 +68,7 @@ class TaskModal extends React.Component {
             <form onSubmit={this.handleSubmit}>
               <label htmlFor="title">Title</label>
               <input
+                required
                 type="text"
                 id="title"
                 value={this.state.title}
@@ -75,6 +76,7 @@ class TaskModal extends React.Component {
               />
               <label htmlFor="subtitle">Subtitle</label>
               <input
+                required
                 type="text"
                 id="subtitle"
                 value={this.state.subtitle}
@@ -82,6 +84,7 @@ class TaskModal extends React.Component {
               />
               <label htmlFor="date">Date</label>
               <input
+                required
                 type="number"
                 min="1"
                 max="30"

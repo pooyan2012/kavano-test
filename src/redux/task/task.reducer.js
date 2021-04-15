@@ -1,9 +1,7 @@
 import TaskActionTypes from "./task.types";
 
 const INISTIAL_STATE = {
-  taskItems: [
-    { title: "Test Task!", subtitle: "Today" },
-  ],
+  taskItems: [{ title: "Test Task!", subtitle: "Today", date: "2" }],
 };
 
 const taskReducer = (state = INISTIAL_STATE, action) => {

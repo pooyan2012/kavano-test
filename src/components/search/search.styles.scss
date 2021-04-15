@@ -1,0 +1,66 @@
+.form-block {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+
+  .kavano-form {
+    position: static;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+    .kavano-search-txt-field {
+      border-style: solid;
+      border-width: 1px;
+      border-color: #f0f0f0;
+      border-radius: 30px;
+      background-color: #e2e7ed;
+      box-shadow: inset 1px 1px 11px -8px #646a72, 0 14px 20px 10px #d9e0ed,
+        inset -3px -3px 12px -4px #fff;
+    }
+
+    ::placeholder {
+      padding-left: 18%;
+    }
+
+    .kavano-search-btn {
+      position: relative;
+      left: 9px;
+      bottom: -39px;
+      width: 20px;
+      height: 30px;
+      border-radius: 50px;
+      background-color: #d6dae3;
+      background-image: url("https://uploads-ssl.webflow.com/5fa6539de1f11567b7272ea6/60771e968bde42ab6274129b_Vector.svg");
+      background-position: 50% 50%;
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .w-form {
+    margin: 0 0 15px;
+  }
+}
