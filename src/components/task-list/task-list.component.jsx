@@ -2,8 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import TaskModal from "../task-modal/task-modal.component";
 
-//import { addTask } from "../../redux/task/task.actions";
-
 import "./task-list.styles.scss";
 import { ReactComponent as ListIco } from "../../assets/list-ico.svg";
 
