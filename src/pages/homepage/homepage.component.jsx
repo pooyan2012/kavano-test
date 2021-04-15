@@ -1,56 +1,13 @@
 import React from "react";
 
-import { ReactComponent as ListIco } from "../../assets/list-ico.svg";
-import { ReactComponent as FleshDown } from "../../assets/flesh-down.svg";
+import Sidebar from '../../components/sidebar/sidebar.components'
 
 import "./homepage.styles.scss";
 
 const Homepage = () => (
   <>
     <div className="kavano-section">
-      <div className="kavano-sidebar">
-        <div className="kavano-user">
-          <div className="kavano-user-logo"></div>
-          <div className="kavano-user-message">
-            <div className="kavano-morning-msg">Good morning,</div>
-            <div className="kavano-username">Pooyan!</div>
-          </div>
-        </div>
-        <div className="kavano-tasks">
-          <div className="kavano-tasks-box">
-            <a href="#" className="kavano-add-btn w-button">
-              Add a Task
-            </a>
-            <div className="kavano-task-txt-container">
-              <ListIco />
-              <div className="kavano-task-title-sub-container">
-                <div className="kavano-task-title">
-                  Wireframe for contact page
-                </div>
-                <div className="kavano-task-sub">Today</div>
-              </div>
-            </div>
-            <div className="kavano-task-txt-container">
-              <ListIco />
-              <div className="kavano-task-title-sub-container">
-                <div className="kavano-task-title">Book return ticket</div>
-                <div className="kavano-task-sub">Tommorow</div>
-              </div>
-            </div>
-            <div className="kavano-task-txt-container">
-              <ListIco />
-              <div className="kavano-task-title-sub-container">
-                <div className="kavano-task-title">Pay electricity bill</div>
-                <div className="kavano-task-sub">2 Days Ahead</div>
-              </div>
-            </div>
-          </div>
-          <div className="kavano-completed-task">
-            <div className="kavano-complete-title">Completed</div>
-            <FleshDown />
-          </div>
-        </div>
-      </div>
+        <Sidebar/>
       <div className="kavano-main">
         <div className="kavano-main-top-div">
           <div className="kavano-nts-div">
