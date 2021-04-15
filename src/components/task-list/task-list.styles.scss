@@ -15,44 +15,6 @@
   background-color: #f2f3f7;
   box-shadow: -3px -3px 8px 0 #fff, 8px 8px 20px 10px #d9dfef;
 
-  .kavano-add-btn {
-    position: relative;
-    left: 20px;
-    top: 20px;
-    width: 129px;
-    height: 40px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #e0e3eb;
-    border-radius: 20px;
-    background-color: #f2f3f7;
-    background-image: url("https://uploads-ssl.webflow.com/5fa6539de1f11567b7272ea6/6076aa97b0bf647e82c7fbd2_Group%201.svg");
-    background-position: 15% 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
-    box-shadow: -3px -3px 8px 0 #fff, 3px 14px 20px 10px #d9e0ed;
-    color: #838592;
-    font-size: 13px;
-    font-weight: 700;
-    text-align: right;
-
-    /*
-    .w-button {
-      display: inline-block;
-      padding: 9px 15px;
-      background-color: #3898ec;
-      color: white;
-      border: 0;
-      line-height: inherit;
-      text-decoration: none;
-      cursor: pointer;
-      border-radius: 0;
-    }
-  
-    input.w-button {
-      -webkit-appearance: button;
-    }*/
-  }
 
   .kavano-task-txt-container {
     display: -webkit-box;

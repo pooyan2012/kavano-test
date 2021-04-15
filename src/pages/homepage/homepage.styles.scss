@@ -400,6 +400,10 @@
     inset -3px -3px 12px -4px #fff;
 }
 
+::placeholder {
+  padding-left: 18%;
+}
+
 .kavano-search-btn {
   position: relative;
   left: 9px;

@@ -1,13 +1,13 @@
 import React from "react";
 
-import Sidebar from '../../components/sidebar/sidebar.components'
+import Sidebar from "../../components/sidebar/sidebar.components";
 
 import "./homepage.styles.scss";
 
 const Homepage = () => (
   <>
     <div className="kavano-section">
-        <Sidebar/>
+      <Sidebar />
       <div className="kavano-main">
         <div className="kavano-main-top-div">
           <div className="kavano-nts-div">
@@ -32,10 +32,10 @@ const Homepage = () => (
                 <input
                   type="text"
                   className="kavano-search-txt-field w-input"
-                  maxlength="256"
+                  maxLength="256"
                   name="name"
                   data-name="Name"
-                  placeholder=""
+                  placeholder="Search"
                   id="name"
                 />
               </form>

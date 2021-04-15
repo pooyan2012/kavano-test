@@ -1,7 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
+import TaskModal from "../task-modal/task-modal.component";
 
-import { addTask } from "../../redux/task/task.actions";
+//import { addTask } from "../../redux/task/task.actions";
 
 import "./task-list.styles.scss";
 import { ReactComponent as ListIco } from "../../assets/list-ico.svg";
@@ -9,13 +10,10 @@ import { ReactComponent as ListIco } from "../../assets/list-ico.svg";
 const TaskList = ({ task }) => {
   return (
     <div className="kavano-tasks-box">
-      <a href="#" className="kavano-add-btn w-button">
-        Add a Task
-      </a>
-
+      <TaskModal />
       {task.taskItems.map((task) => {
         return (
-          <div className="kavano-task-txt-container">
+          <div key={task.title} className="kavano-task-txt-container">
             <ListIco />
             <div className="kavano-task-title-sub-container">
               <div className="kavano-task-title">{task.title}</div>
