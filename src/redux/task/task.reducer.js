@@ -1,7 +1,10 @@
 import TaskActionTypes from "./task.types";
 
 const INISTIAL_STATE = {
-  tasks: [],
+  taskItems: [
+    { title: "Wireframe for contact page", subtitle: "Today" },
+    { title: "Start gym", subtitle: "" },
+  ],
 };
 
 const taskReducer = (state = INISTIAL_STATE, action) => {
@@ -9,7 +12,7 @@ const taskReducer = (state = INISTIAL_STATE, action) => {
     case TaskActionTypes.ADD_TASK:
       return {
         ...state,
-        tasks: [...state.tasks, action.payload],
+        tataskItemssks: [...state.taskItems, action.payload],
       };
     default:
       return state;
