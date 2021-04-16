@@ -1,1 +1,28 @@
-//////////////
+.kavano-days-div {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 7vh;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid #e6e6e6;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #f2f3f7;
+  box-shadow: 0 20px 14px -4px #d9dfef;
+}
+
+.kavano-days {
+  font-family: Roboto, sans-serif;
+  color: #838592;
+  font-size: 12px;
+  font-weight: 700;
+}

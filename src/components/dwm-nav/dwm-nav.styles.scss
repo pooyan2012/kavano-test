@@ -1,1 +1,49 @@
-///////////////
+.kavano-dwm-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 8vh;
+}
+
+.kavano-dwm-txt {
+  display: inline;
+  font-family: Roboto, sans-serif;
+  color: #838592;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.kavano-dwm-txt.kavano-dwm-txt-selected {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #eb8d58;
+  color: #fff;
+}
+
+.kavano-dwm-inside-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15vw;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
